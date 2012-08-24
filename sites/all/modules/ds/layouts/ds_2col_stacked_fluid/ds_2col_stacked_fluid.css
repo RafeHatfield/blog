@@ -4,12 +4,12 @@
 
 .group-left {
   float: left;
-  width: 50%;
+  width: 33%;
 }
 
 .group-right {
   float: right;
-  width: 50%;
+  width: 66%;
 }
 
 .group-one-column .group-left,
