@@ -6,21 +6,21 @@ index 0344ef2..60ba620 100644
      'name' => 'ga:dayOfWeek',
      'description' => 'The day of the week. A one-digit number from 0 (Sunday) to 6 (Monday).',
    ),
-+  'socialNetwork' => 
++  'socialNetwork'=>
 +  array(
 +    'type' => 'dimension',
 +    'group' => 'Traffic Sources',
 +    'name' => 'ga:socialNetwork',
 +    'description' => 'A string representing the social network name. This can be related to the referring social network for traffic sources, or to the social network for social data hub activities. E.g. Google+, Blogger, reddit, etc.',
 +  ),
-+  'hasSocialSourceReferral' => 
++  'hasSocialSourceReferral'=>
 +  array(
 +    'type' => 'dimension',
 +    'group' => 'Traffic Sources',
 +    'name' => 'ga:hasSocialSourceReferral',
 +    'description' => ' Indicates visits that arrived to the site from a social source (i.e. A social network such as Google+, Facebook, Twitter, etc.). The possible values are Yes or No, where the first letter must be capitalized.',
 +  ),
-+  'socialActivityDisplayName' => 
++  'socialActivityDisplayName'=>
 +  array(
 +    'type' => 'dimension',
 +    'group' => 'Social Activities',
