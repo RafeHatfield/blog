@@ -651,14 +651,14 @@ function google_analytics_views_get_fields() {
     'type' => 'dimension',
     'group' => 'Social Activities',
     'name' => 'ga:socialActivityUserPhotoUrl',
-    'description' => ' For a social data hub activity, this string represents the URL of the photo associated with the user's social network profile.',
+    'description' => ' For a social data hub activity, this string represents the URL of the photo associated with the user\'s social network profile.',
   ),
   'socialActivityUserProfileUrl'=>
   array(
     'type' => 'dimension',
     'group' => 'Social Activities',
     'name' => 'ga:socialActivityUserProfileUrl',
-    'description' => 'For a social data hub activity, this string represents the URL of the associated user's social network profile.',
+    'description' => 'For a social data hub activity, this string represents the URL of the associated user\'s social network profile.',
   ),
   'socialActivityContentUrl'=>
   array(
