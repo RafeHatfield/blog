@@ -216,56 +216,56 @@ index 0344ef2..60ba620 100644
      'name' => 'ga:itemsPerPurchase',
      'description' => '<code>ga:itemQuantity / ga:uniquePurchases</code><br/>The average quantity of this item (or group of items) sold per purchase.',
    ),
-+  'socialActivities' => 
++  'socialActivities' =>
 +  array(
 +    'type' => 'metric',
 +    'group' => 'Social Activities',
 +    'name' => 'ga:socialActivities',
 +    'description' => 'The count of activities where a content URL was shared/mentioned on a social data hub partner network.',
 +  ),
-+  'socialInteractions' => 
++  'socialInteractions' =>
 +  array(
 +    'type' => 'metric',
 +    'group' => 'Social Interactions',
 +    'name' => 'ga:socialInteractions',
 +    'description' => 'The total number of social interactions on your site.',
 +  ),
-+  'uniqueSocialInteractions' => 
++  'uniqueSocialInteractions' =>
 +  array(
 +    'type' => 'metric',
 +    'group' => 'Social Interactions',
 +    'name' => 'ga:uniqueSocialInteractions',
 +    'description' => 'The total number of unique social interactions on your site. Based on the the value pair ga:socialInteractionNetwork and ga:socialInteractionAction.',
 +  ),
-+  'socialInteractionsPerVisit' => 
++  'socialInteractionsPerVisit' =>
 +  array(
 +    'type' => 'metric',
 +    'group' => 'Social Interactions',
 +    'name' => 'ga:socialInteractionsPerVisit',
 +    'description' => '<code>ga:socialInteractions / ga:uniqueSocialInteractions</code><br/>The average number of social interactions per visit to your site.',
 +  ),
-+  'exceptions' => 
++  'exceptions' =>
 +  array(
 +    'type' => 'metric',
 +    'group' => 'Exception Tracking',
 +    'name' => 'ga:exceptions',
 +    'description' => 'The number of exceptions that were sent to Google Analytics.',
 +  ),
-+  'fatalExceptions' => 
++  'fatalExceptions' =>
 +  array(
 +    'type' => 'metric',
 +    'group' => 'Exception Tracking',
 +    'name' => 'ga:fatalExceptions',
 +    'description' => 'The number of exceptions where isFatal is set to true.',
 +  ),
-+  'userTimingSample' => 
++  'userTimingSample' =>
 +  array(
 +    'type' => 'metric',
 +    'group' => 'User Timings',
 +    'name' => 'ga:userTimingSample',
 +    'description' => 'The number of samples that were sent.',
 +  ),
-+  'avgUserTimingValue' => 
++  'avgUserTimingValue' =>
 +  array(
 +    'type' => 'metric',
 +    'group' => 'User Timings',
