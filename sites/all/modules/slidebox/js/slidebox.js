@@ -11,7 +11,7 @@
       $('#slidebox_cookie').hide();
 
       $(window).scroll(function() {
-        var distanceTop = $('#slidebox_trigger').offset().top - $(window).height();
+        var distanceTop = parseInt($('#slidebox_trigger').offset().top) - parseInt($(window).height());
         if  ($(window).scrollTop() > distanceTop) {
           if ($.cookie('slidebox') == 'open') {
             $('#slidebox').animate({'right':'0px'}, settings.slidebox.showTime);
