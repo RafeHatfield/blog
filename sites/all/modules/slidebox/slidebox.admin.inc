@@ -1,6 +1,11 @@
 <?php
 
 /**
+ * @file
+ *   Contains administrative forms and callbacks for Slidebox.
+ */
+
+/**
  * Menu callback. Displays the administration settings.
  */
 function slidebox_admin_settings() {
